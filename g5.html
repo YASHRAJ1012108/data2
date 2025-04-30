@@ -1,0 +1,21 @@
+<!-- a.	Create one HTML file named ljform.html and add one form which contains username, password and submit button.
+Data should be submitted by HTTP post method.  Submit button is of black color with white text. (External CSS).
+On home page form should be displayed and while submitting the form, on next page named “/login” if username is 
+admin then it will display “Welcome admin” else display  “Please login with admin name”.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="g5.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/login" method="post">
+            <label for="Username: "></label><input type="text" name="un">
+            <label for="Password: "></label><input type="password" name="ps">
+            <input type="submit" class="sub">
+    </form>
+</body>
+</html>
